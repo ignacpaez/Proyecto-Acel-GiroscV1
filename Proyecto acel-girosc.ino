@@ -140,7 +140,7 @@ Wire.write(0x1C); //Enviar solicitud de registro
 Wire.write(0x10); //Reiniciar solicitud
 Wire.endTransmission(); //Terminar transmision
 //Configurar gyroscopio (500dps full scale)
-Wire.beginTransmission(0x68); //Start communicating with the MPU-6050
+Wire.beginTransmission(0x68); //Comenzar comuniación con MPU 6050
 Wire.write(0x1B); //Enviar solicitud de registro
 Wire.write(0x08); 
 Wire.endTransmission(); //Terminar transmision
